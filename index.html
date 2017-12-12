@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="asstes/css/style.css">	
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<title>FOODMAP</title>
+</head>
+<body>
+<!-- titulo principal, aparece y desaparece -->
+  <div class="conteiner-fluid cont">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12">
+        <div id="splash" style="display:none;"><h1>FOODMAP</h1></div>     
+       <div class="row">
+               <div class="col-xs-12">
+                   <h1>FOODMAP</h1>
+                   <hr>
+                   <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d53263.590780853076!2d-70.63094221391023!3d-33.449972866820715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1scomida+peruana!5e0!3m2!1ses-419!2scl!4v1513091695547"  frameborder="0" style="border:0" allowfullscreen></iframe>
+                   <h2>Comida cerca de ti</h2>
+                    <div class="row">    
+                      <div class="col-xs-8 col-xs-offset-2">
+                       <div class="input-group">
+                          <div class="input-group-btn search-panel">
+                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                             <span id="search_concept">filtrer</span> <span class="caret"></span>
+                             </button>
+                                <ul class="dropdown-menu" role="menu">
+                                 <li><a href="#contains">Argentina</a></li>
+                                 <li><a href="#its_equal">Japonesa</a></li>
+                                 <li><a href="#greather_than">thai </a></li>
+                                 <li><a href="#less_than">Mexicana</a></li>
+                                 <li class="divider"></li>
+                                <li><a href="#all">Anything</a></li>
+                               </ul>
+                              </div>
+                                <input type="hidden" name="search_param" value="all" id="search_param">         
+                                <input type="text" class="form-control" name="x" placeholder="Search term...">
+                                <span class="input-group-btn">
+                              <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span></button>
+                            </span>
+                     </div>
+                   </div>
+                 </div>
+               </div>        
+            </div>
+        </div>
+    </div>
+
+  
+
+
+
+
+
+   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="asstes/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+html{
+	height: 100%;
+}
+body{
+	background-color: #282828FF;
+	color:orange;
+	font-family: 'Raleway', sans-serif;
+}
+
+.cont{	
+	text-align: center;
+	max-height: 100%;
+}
+#splash{
+	margin-top: 40vh;
+	margin-bottom: 40vh;
+	
+}
+#titulo{
+	
+	border-bottom: 1px solid white;
+}
+#mapa{
+	width: 80%;
+	height: auto;
+	padding: 2em;
+}
+

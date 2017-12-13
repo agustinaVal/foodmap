@@ -44,16 +44,26 @@
      });     
     
 
-     //mostrar todos los productos en boton de "todos"
+     //mostrar todos la comida en boton de "todos"
       $('.category-item[category="all"]').click(function(){
         function showTodo(){
           $('.product-item').show();
           $('.product-item').css('transform', 'scale(1)');
         }setTimeout(showTodo,400);
       
+      
+              
       });
 
-     
+      //funcion mouseover solo funciona haciendo click
+
+      $('.product-item').mouseover(function () {
+       $('.texto').show(); 
+       }).mouseout(function () { 
+        $('.texto').hide(); 
+        }); 
+
+            
    });
 
      

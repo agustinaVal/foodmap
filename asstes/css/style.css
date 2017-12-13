@@ -30,13 +30,26 @@ body{
 .product-item{
 	padding-top: 2em;
 	transition: all .4s;
+	
 }
 
 .categoryList{
 	display: flex;
 	flex-direction: column;
+
 }
 
 .categoryList .item-active{
      background-color: grey;
 }
+ 
+
+ .texto {
+    background-color: #000;
+    color: #FFF;
+    text-align: center;
+    z-index: 1;
+    opacity: 0.5;
+    top: 0.5em;
+    display:none;
+   }

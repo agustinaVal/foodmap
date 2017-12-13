@@ -24,20 +24,56 @@
                    <!-- filtro para tipos de comida -->
                     <div class="row">    
                       <div class="col-xs-8 col-xs-offset-2">
-                       <div class="input-group">
-                          <div class="input-group-btn search-panel">
-                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                             <span id="search_concept">filtrer</span> <span class="caret"></span>
-                             </button>
-                                <ul class="dropdown-menu" role="menu">
-                                 <li><a href="#contains">Argentina</a></li>
-                                 <li><a href="#its_equal">Japonesa</a></li>
-                                 <li><a href="#greather_than">thai </a></li>
-                                 <li><a href="#less_than">Mexicana</a></li>
-                                </ul>
-                              </div>                                       
-                                <input type="text" class="form-control" name="x" placeholder="buscar...">   
-                      </div>
+                        <h3>Escoje tu pedido</h3>
+                        <br>
+                        <div class="btn-group categoryList" role="group" aria-label="...">
+                          <button type="button" class="btn btn-default category-item " category="all">Todo</button>
+                          <button type="button" class="btn btn-default category-item" category="Argentina">Comida Argentina</button>
+                          <button type="button" class="btn btn-default category-item" category="Japonesa">Comida Japonesa</button>
+                          <button type="button" class="btn btn-default category-item" category="Thai">Comida Thai</button>
+                          <button type="button" class="btn btn-default category-item" category="Mexicana">Comida Mexicana</button>      
+                        </div>
+
+                        <seccion class="product-list">
+                          <div class="product-item"  category="Argentina">
+                             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Milanesa.jpg/320px-Milanesa.jpg" width="240" height="160" alt="">      
+                          </div>
+                           <div class="product-item"  category="Argentina">
+                             <img src="https://www.argentinaxplora.com/activida/gastrono/gastroimg/platos-tipicos/asado-chorizo-parrilla.jpg"  width="240" height="160" alt="">      
+                          </div>
+                          <div class="product-item"  category="Argentina">
+                             <img src="http://hostelwaira.com.ar/wp-content/uploads/2017/09/empanadas.jpg" width="240" height="160" alt="">    
+                          </div>
+                          <div class="product-item"   category="Japonesa">
+                             <img src="http://3.bp.blogspot.com/-mw2LyLhW0Uw/VM-R_7KiyAI/AAAAAAAAGrs/1uejqiXkJgg/s1600/ramen.jpg" width="240" height="160" alt="">   
+                          </div>
+                          <div class="product-item"   category="Japonesa">
+                             <img src="https://static.vix.com/es/sites/default/files/styles/large/public/imj/nuestrorumbo/c/comida-tipica-de-japon.jpg?itok=6AZIbACq" width="240" height="160" alt="">  
+                          </div>
+                          <div class="product-item"   category="Japonesa">
+                             <img src="https://thumbs.dreamstime.com/b/ramen-de-la-comida-de-jap%C3%B3n-64055262.jpg" width="240" height="160" alt="">   
+                          </div>
+                           <div class="product-item"   category="Thai">
+                             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBaaslZWaul1arsnO52R9BzC7Jo-2dH5v4xcCzcrMQcjD6QsuJ" width="240" height="160" alt="">   
+                          </div>
+                           <div class="product-item"   category="Thai">
+                             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbkqpCicnChdfaXCr0anBL7Z5B-FGXYs2-d4CVufo3b092xnGQ" width="240" height="160" alt="">  
+                          </div>
+                           <div class="product-item"   category="Thai">
+                             <img src="https://i.imgur.com//BR0rqOR.jpg" width="240" height="160" alt="">   
+                          </div>
+                           <div class="product-item"  category="Mexicana">
+                            <img src="http://i1.wp.com/farm9.staticflickr.com/8443/7763381528_139027cc12.jpg?resize=500%2C333" width="240" height="160" alt="">  
+                          </div>
+                          <div class="product-item"  category="Mexicana">
+                             <img src="http://images-gmi-pmc.edge-generalmills.com/4acd49b3-21fb-44ff-bae7-68c2e17d200e.jpg" width="240" height="160" alt="">   
+                          </div>
+                          <div class="product-item"  category="Mexicana">
+                            <img src="https://i1.wp.com/thehappening.com/wp-content/uploads/2016/09/cochinita-pibil.jpg?fit=1024%2C694&ssl=1" width="240" height="160" alt="">   
+                          </div>
+
+
+                        </seccion>
                     </div>
                   </div>
                 </div>        
@@ -46,41 +82,10 @@
       </div>
     <br>
 
-     <!-- Imágenes -->
-  <div>
-
-    <div class="fotos argentina"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Milanesa.jpg/320px-Milanesa.jpg" width="240" height="160" alt=""></div>
-    <div class="fotos argentina"><img src="https://www.argentinaxplora.com/activida/gastrono/gastroimg/platos-tipicos/asado-chorizo-parrilla.jpg"  width="240" height="160" alt=""></div>
-    <div class="fotos argentina"><img src="http://hostelwaira.com.ar/wp-content/uploads/2017/09/empanadas.jpg" width="240" height="160" alt=""></div>
-    <div class="fotos argentina"><img src="http://2.bp.blogspot.com/-5SxO_kKB9jU/Uc-HldKmi-I/AAAAAAAAABM/1cgboelNiC8/s700/Locro1.jpg" width="240" height="160" alt=""></div>
     
-  </div>
-
-   <!-- Imágenes -->
-  <div>
-    <div class="fotos japonesa"><img src="http://3.bp.blogspot.com/-mw2LyLhW0Uw/VM-R_7KiyAI/AAAAAAAAGrs/1uejqiXkJgg/s1600/ramen.jpg" width="240" height="160" alt=""></div>
-    <div class="fotos japonesa"><img src="https://static.vix.com/es/sites/default/files/styles/large/public/imj/nuestrorumbo/c/comida-tipica-de-japon.jpg?itok=6AZIbACq" width="240" height="160" alt=""></div>
-    <div class="fotos japonesa"><img src="https://thumbs.dreamstime.com/b/ramen-de-la-comida-de-jap%C3%B3n-64055262.jpg" width="240" height="160" alt=""></div>
-    <div class="fotos japonesa"><img src="https://3.bp.blogspot.com/-BJj-_Z6SxXM/VNDRujJI9sI/AAAAAAAAGtw/MzlubvBXKRY/w1200-h630-p-k-no-nu/ComidasdejaponCabecera-MundoOtaku.png" width="240" height="160" alt=""></div>    
-  </div>
-
-  <!-- Imágenes -->
-  <div>
-    <div class="fotos thai"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBaaslZWaul1arsnO52R9BzC7Jo-2dH5v4xcCzcrMQcjD6QsuJ" width="240" height="160" alt=""></div>
-    <div class="fotos thai"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbkqpCicnChdfaXCr0anBL7Z5B-FGXYs2-d4CVufo3b092xnGQ" width="240" height="160" alt=""></div>
-    <div class="fotos thai"><img src="https://i.imgur.com//BR0rqOR.jpg" width="240" height="160" alt=""></div>
-    <div class="fotos thai"><img src="http://www.viajeatailandia.com/wp-content/uploads/2014/08/Comida-Tailandesa.-Khao-Soi.jpg" width="240" height="160" alt=""></div>   
-  </div>
-
-    <!-- Imágenes -->
-  <div>
-    <div class="fotos mexicana"><img src="http://i1.wp.com/farm9.staticflickr.com/8443/7763381528_139027cc12.jpg?resize=500%2C333" width="240" height="160" alt=""></div>
-    <div class="fotos mexicana"><img src="http://images-gmi-pmc.edge-generalmills.com/4acd49b3-21fb-44ff-bae7-68c2e17d200e.jpg" width="240" height="160"alt=""></div>
-    <div class="fotos mexicana"><img src="https://i1.wp.com/thehappening.com/wp-content/uploads/2016/09/cochinita-pibil.jpg?fit=1024%2C694&ssl=1" width="240" height="160" alt=""></div>
-    <div class="fotos mexicana"><img src="http://www.quericavida.com/-/media/Images/QRV/recipes/collections/by-country/viva-mexico-10-traditional-mexican-recipes/viva-mexico-10-traditional-mexican-recipes_hero.jpg" width="240" height="160" alt=""></div>
-  </div>
 
   
+ 
 
 
 

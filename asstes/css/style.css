@@ -27,6 +27,15 @@ body{
 }
 
 
-.fotos{
-	padding-bottom: 1em;
+.product-item{
+	padding-top: 2em;
+}
+
+.categoryList{
+	display: flex;
+	flex-direction: column;
+}
+
+.categoryList .item-active{
+     background-color: grey;
 }

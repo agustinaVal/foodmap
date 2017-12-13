@@ -53,3 +53,10 @@ body{
     top: 0.5em;
     display:none;
    }
+
+  .botonModal{
+  	background-color: #fff;
+  	color:orange;
+  	font-size: 20px;
+  	border-radius: 5px;
+  } 

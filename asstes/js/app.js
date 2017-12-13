@@ -20,6 +20,7 @@
 
      $('.category-item').click(function(){
 
+    //filtrando comida segun su valor de categoria
       var catProduct = $(this).attr('category');
       console.log(catProduct);
 
@@ -27,11 +28,25 @@
      $(this).addClass('item-active');
   
 
-     //ocultando comida
+     //ocultando comida     
+    $('.product-item').css('transform', 'scale(0)');
+
+    function hideFood () {
      $('.product-item').hide();
+     } setTimeout(hideFood, 400);
 
      //mostrando comida segun categoria
-     $('.product-item[category="'+catProduct+'"]').show();
+     function showFood() {
+      $('.product-item[category="'+catProduct+'"]').show();
+      $('.product-item[category="'+catProduct+'"]').css('transform', 'scale(1)');
+    } setTimeout(showFood, 400);
+       
+    
+
+     //mostrar todos los productos en boton de "todos"
+      $('.category-item[category="all"]').click(function(){
+      $('.product-item').show();
+      });
 
       });
    });

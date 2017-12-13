@@ -29,6 +29,7 @@ body{
 
 .product-item{
 	padding-top: 2em;
+	transition: all .4s;
 }
 
 .categoryList{

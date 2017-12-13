@@ -28,27 +28,32 @@
      $(this).addClass('item-active');
   
 
-     //ocultando comida     
-    $('.product-item').css('transform', 'scale(0)');
+     //ocultando comida con animacion
 
     function hideFood () {
      $('.product-item').hide();
+     $('.product-item').css('transform', 'scale(0)');
      } setTimeout(hideFood, 400);
 
      //mostrando comida segun categoria
      function showFood() {
       $('.product-item[category="'+catProduct+'"]').show();
       $('.product-item[category="'+catProduct+'"]').css('transform', 'scale(1)');
-    } setTimeout(showFood, 400);
-       
+    } setTimeout(showFood, 400); 
+
+     });     
     
 
      //mostrar todos los productos en boton de "todos"
       $('.category-item[category="all"]').click(function(){
-      $('.product-item').show();
+        function showTodo(){
+          $('.product-item').show();
+          $('.product-item').css('transform', 'scale(1)');
+        }setTimeout(showTodo,400);
+      
       });
 
-      });
+     
    });
 
      
